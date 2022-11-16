@@ -10,6 +10,16 @@ export type NoteData = {
   tags: Tag[];
 };
 
+export type RawNote = {
+  id: string;
+};
+
+export type RawNoteData = {
+  title: string;
+  markdown: string;
+  tagId: string[];
+};
+
 export type Tag = {
   id: string;
   label: string;
